@@ -3,57 +3,6 @@
  * @author: Nick Pizzigati
  */
 
-// TODO:
-
-// Reset action keys when changing segments. Also exit operator
-// pending mode
-
-// Using a number followed by sneak s or S should probably just
-// return to normal mode or something like that
-
-// Change tests to use junit5 to see if that resolves issue of
-// runner hanging at end?
-
-// Try also to get e to stop at the last
-// character, and not go to the cursor position beyond.
-
-// Implement r (replace) ... is this another mode entirely?
-
-// Make clipboard integration optional (see Register class)
-
-// Return cursor to normal DefaultCursor when exiting script
-
-// Is there a way to automatically change keyboard locale to US
-// // English at the start of the tests? (for Robot to work //
-// correctly for keys like $.)
-
-// Disable overwrite mode (insert key) when in script. 
-
-// d$ in normal mode just moves to line end instead of deleting
-// to line end
-
-// Script can apparently run multiple times at the same time, if
-// you start it multiple times, causing strange behavior. Need to
-// prevent.
-
-// have yank be reflected in the clipboard (but have this be an
-// option)
-
-// Implement undo (and repeat) last change
-
-// GoForwardTo and GoForwardTill are the same method. GoForwardTo
-// with Operator.DELETE should delete up to and including the
-// specified letter, etc.
-
-// Convert java regex to groovy regex in normal mode w method
-
-// Too much casting in mode functions. Should I have a hash with
-// the different char values, e.g. Letters['a'] instead of
-// (int)'a'?
-
-// Cursor sometimes disappears when switching do Normal mode from
-// Insert. Reappears when cursor is moved.
-// Is there a memory leak in the cursor switching code?
 
 import java.awt.event.KeyListener;
 import java.awt.event.KeyEvent;
