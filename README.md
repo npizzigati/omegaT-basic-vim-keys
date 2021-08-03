@@ -1,4 +1,7 @@
 # OmegaT-basic-vim-keys
+
+Now deprecated. See Vimish project for current plugin (https://github.com/npizzigati/Vimish).
+
 Vim-style modal editing for [OmegaT](https://omegat.org/)
 
 ## What works
